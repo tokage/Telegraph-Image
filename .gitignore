@@ -1,6 +1,32 @@
-node_modules/.bin/*
-node_modules/.mf/*
-.wrangler/*
-data/*
-data-broken/*
-test/e2e/output/*
+# ===== Dependencies =====
+node_modules/
+
+# ===== Cloudflare / Wrangler =====
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# ===== Build output =====
+dist/
+build/
+out/
+coverage/
+
+# ===== Local runtime data =====
+data/
+data-broken/
+test/e2e/output/
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
