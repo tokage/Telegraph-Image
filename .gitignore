@@ -30,3 +30,6 @@ yarn-error.log*
 Thumbs.db
 *.swp
 *.swo
+
+# ===== Agent workspace (WorkBuddy memory, never commit) =====
+.workbuddy/
